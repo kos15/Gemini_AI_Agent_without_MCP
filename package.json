@@ -1,0 +1,19 @@
+{
+  "name": "CursorWithoutMCP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Koustubh Mishra",
+  "license": "MIT",
+  "description": "Try to build an AI Agent without help of MCP server which try to resolve user query with the help of tools provided by us",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "https": "^1.0.0",
+    "openai": "^5.15.0"
+  }
+}
